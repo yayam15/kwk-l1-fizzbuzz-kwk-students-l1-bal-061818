@@ -8,7 +8,8 @@ def fizz_buzz(int)
   elsif int%5 == 0
     puts "buzz"
 
-  els
+  else
     puts "nil"
  end
 end
+fizz_buzz(30)
