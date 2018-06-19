@@ -1,6 +1,6 @@
 
 def fizz_buzz(int)
-  elsif int%15 == 0
+  if int%15 == 0
     puts "fizzbuzz"
   elsif int%3 == 0
     puts "fizz"
